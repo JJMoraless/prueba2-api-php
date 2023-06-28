@@ -1,0 +1,21 @@
+{
+    "name": "jhonm/prueba2",
+    "description": "api",
+    "type": "project",
+    "authors": [
+        {
+            "name": "JJMoraless",
+            "email": "jjmorales444@misena.edu.co"
+        }
+    ],
+    "require": {
+        "bramus/router": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Config\\": "./config",
+            "Controllers\\": "./controllers",
+            "Models\\": "./models"
+        }
+    }
+}
